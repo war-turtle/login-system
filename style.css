@@ -1,0 +1,61 @@
+*{
+  margin:0;
+  padding:0;
+}
+body{
+  background-color: #aaa;
+}
+.container{
+  margin-top: 30px;
+}
+form{
+  background: #333;
+  color:white;
+  font-size: 30px;
+  text-align: center;
+  padding:20px;
+}
+form input[type="text"],form input[type="password"],form input[type="email"]{
+  width: 50%;
+  height: 30px;
+  border-bottom:5px green solid;
+  border-left:5px green solid;
+  border-right:none;
+  border-top:none;
+  font-size: 25px;
+  background-color: #aaa;
+  color:#333;
+  transition:border 0.5s linear;
+}
+form input[type="text"]:focus,form input[type="password"]:focus,form input[type="email"]:focus{
+  /*outline-width: 0;*/
+  /*outline-color: green;*/
+  outline:none;
+  border:none;
+  border-top:5px solid green;
+  border-right:5px solid green;
+}
+form input[type="submit"]{
+  width:30%;
+  height:40px;
+  border:none;
+  border-bottom:green 5px solid;
+  border-left:green 5px solid;
+  background: #aaa;
+  color:#333;
+  font-size: 25px;
+}
+.button{
+  padding-top: 100px;
+  text-align: center;
+}
+button{
+  width:40%;
+  height: 50px;
+  border: none;
+  background-color: #333;
+  color:white;
+  font-size: 25px;
+  border-bottom:5px green solid;
+  border-left:5px green solid;
+}
